@@ -1,0 +1,193 @@
+@font-face {
+  font-family: "Harmonia Medium";
+  src: url(/src/fonts/Harmonia-Sans-Font/Harmonia\ Sans\ W01\ Regular.ttf);
+}
+
+@font-face {
+  font-family: "Harmonia Bold";
+  src: url(/src/fonts/Harmonia-Sans-Font/Harmonia\ Sans\ W01\ Bold.ttf);
+}
+
+@font-face {
+  font-family: "Cabin Bold";
+  src: url(/src/fonts/Cabin/static/Cabin/Cabin-Bold.ttf);
+}
+
+@font-face {
+  font-family: "Salt & Pepper";
+  src: url(/src/fonts/salt_pepper/Salt\ &\ Pepper.ttf);
+}
+
+.navbar {
+  background-color: #f06c53;
+  padding: 20px;
+}
+
+.nav-item a,
+.navbar-brand {
+  color: #fefefe;
+}
+
+.navbar-toggler-icon {
+  color: #fefefe;
+}
+
+.mtbheadtext {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.mtbheadtext h2 {
+  color: #f06c53;
+  font-family: "Salt & Pepper", sans-serif;
+  font-size: 50px;
+}
+
+.mtbheadtext p {
+  font-family: "Harmonia Bold", sans-serif;
+}
+
+.mtbheadtext a {
+  font-family: "Cabin Bold", sans-serif;
+}
+
+.buns {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  flex-wrap: wrap;
+}
+
+.card-body {
+  text-align: center;
+}
+
+.card-body p {
+  margin-top: 20px;
+}
+
+.mtbheadtext a {
+  background-color: #f06c53;
+  color: #fefefe;
+}
+
+.mtbheadtext a:hover {
+  background-color: #f06c53;
+  color: #fefefe;
+  transform: scale(1.2);
+}
+
+.nav-item button:hover {
+  transform: scale(1.3);
+}
+
+.img-fluid {
+  width: 500px;
+  margin: 10px;
+}
+
+.buns .card {
+  border: 2px solid #f06c53;
+  border-radius: 30px;
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .imgcontainer {
+    display: flex;
+    justify-content: center;
+  }
+
+  .right .img-fluid {
+    margin-right: 0px;
+  }
+
+  .footerlinklist {
+    margin-right: 25px;
+  }
+
+  .footertext {
+    margin-right: 30px;
+  }
+}
+
+.footerlinklist .btn {
+  border-radius: 50%;
+  color: #f06c53;
+  border: 1px solid #f06c53;
+}
+
+.footerlinklist .btn:hover {
+  background-color: #f06c53;
+  color: #fefefe;
+}
+
+.footerlinklist {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.footertext p {
+  font-size: 15px;
+  margin: 0px;
+  color: #fefefe;
+}
+
+.footertext small {
+  font-size: 12px;
+  margin-top: 0px;
+  color: #fefefe;
+  margin-bottom: 10px;
+}
+
+.footertext {
+  text-align: center;
+  line-height: 15px;
+  margin-left: 30px;
+}
+
+footer {
+  background-color: #3b3436;
+}
+
+.footerlinklist li {
+  font-size: 40px;
+}
+
+.nav-item .active {
+  color: #6c6968;
+}
+
+.footerlinklist .first {
+  width: 50px;
+}
+
+.card-title {
+  color: #f06c53;
+  font-family: "Salt & Pepper", sans-serif;
+  font-size: 40px;
+}
+
+.card-text {
+  font-family: "Harmonia Medium", sans-serif;
+}
+
+.nav-link {
+  font-family: "Harmonia Medium", sans-serif;
+}
+
+.navbar-brand {
+  font-family: "Salt & Pepper", sans-serif;
+  font-size: 40px;
+}
+
+.footertext p {
+  font-family: "Harmonia Medium", sans-serif;
+}
+
+.footertext small {
+  font-family: "Harmonia Medium", sans-serif;
+}

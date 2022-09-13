@@ -1,0 +1,71 @@
+@font-face {
+  font-family: "Cabin Bold";
+  src: url(/src/fonts/Cabin/static/Cabin/Cabin-Bold.ttf);
+}
+
+@font-face {
+  font-family: "Salt & Pepper";
+  src: url(/src/fonts/salt_pepper/Salt\ &\ Pepper.ttf);
+}
+
+.herotext h5 {
+  text-align: center;
+  font-family: "Cabin Bold", sans-serif;
+}
+
+.mask h1 {
+  color: #f06c53;
+  font-size: 80px;
+  text-align: center;
+  font-family: "Salt & Pepper", sans-serif;
+}
+
+.link-butttons {
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+  position: absolute;
+}
+.mask button {
+  color: #f06c53;
+  border: 1px solid #f06c53;
+  width: 182px;
+  height: 70px;
+  justify-content: space-between;
+  font-weight: bold;
+  margin-top: 25px;
+  font-family: "Cabin Bold", sans-serif;
+}
+
+.mask button:hover {
+  color: #fafafa;
+  background-color: #f06c53;
+  border: 1px solid #f06c53;
+  font-family: "Cabin Bold", sans-serif;
+}
+
+.footerbuttonlinks {
+  display: flex;
+  align-items: flex-end;
+  margin-right: 30px;
+}
+
+.footerlinklist .link {
+  width: auto;
+  height: auto;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.footerlinklist .first {
+  width: 40px;
+}
+
+.footerlinklist {
+  list-style-type: none;
+  /* margin-top: 500px; */
+}
+
+.footerlinklist li {
+  font-size: 40px;
+}
